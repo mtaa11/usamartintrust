@@ -1,0 +1,26 @@
+{	
+	"easycom": {
+	    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/more/index",
+			"style": {
+				"app-plus": {"titleNView": false}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Martin Trust马丁信托",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
